@@ -58,7 +58,7 @@ brew install apache-spark
 
 ## 3. Setup Variables
 
-* Assump Current spark version == `2.4.0`.
+* Assume current **Spark version == `2.4.0`**.
 ```bash
 # For a ipython notebook and pyspark integration
 if which pyspark > /dev/null; then
@@ -74,6 +74,10 @@ fi
 
 * Install Python Env through `pyenv`, a python versioning manager.
 ```bash
+
+# Install pyenv
+brew install pyenv
+
 pyenv install 3.6.7 
 
 # Set Python 3.6.7 as main python interpreter
